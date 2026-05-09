@@ -18,7 +18,7 @@ A small team project & task management app with role-based access control.
 ```bash
 npm install
 cp .env.example .env
-# fill MONGODB_URI and JWT_SECRET
+# fill MONGODB_URI, JWT_SECRET AND GEMINI_API_KEY
 npm run dev
 ```
 
