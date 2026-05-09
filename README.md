@@ -9,9 +9,9 @@ A small team project & task management app with role-based access control.
 - Tailwind CSS
 
 ## Roles
-- **admin** — full access, can manage users and all projects
-- **manager** — can create projects and assign tasks
-- **member** — can view assigned projects and update own tasks
+- **admin** : full access, can manage users and all projects
+- **manager** : can create projects and assign tasks
+- **member** : can view assigned projects and update own tasks
 
 ## Setup
 
