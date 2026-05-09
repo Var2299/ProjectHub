@@ -273,8 +273,12 @@ export default function ProjectDetailPage() {
                         <PriorityBadge priority={task.priority} />
                       </div>
                       {task.description && (
-                        <p className="text-xs text-gray-500 mt-1 line-clamp-2">{task.description}</p>
-                      )}
+                      <textarea
+                      readOnly
+                      value={task.description}
+                      className="mt-1 w-full min-h-[70px] resize-y overflow-auto rounded-md border border-gray-200 bg-transparent px-2 py-1 text-xs text-gray-500 focus:outline-none"
+                       />
+                       )}
                       <div className="flex items-center justify-between mt-2 text-xs text-gray-500">
                         <span>{task.assignee?.name || "Unassigned"}</span>
                         {task.dueDate && <span>{new Date(task.dueDate).toLocaleDateString()}</span>}
