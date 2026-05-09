@@ -28,8 +28,9 @@ The first user you register becomes an **admin** automatically.
 Subsequent users register as **member** by default. Admin can promote them.
 
 ## Features
-- Register / Login / Logout (JWT, bcrypt)
+- AI-Powered Task Descriptions — Use the "AI Suggest" button during task creation to automatically generate an optimal description based on your title.
 - Role-based dashboard with stats
+- Register / Login / Logout (JWT, bcrypt)
 - Projects: create, list, view, edit, delete, add members
 - Tasks: create within a project, assign, set priority/status, edit, delete
 - User management (admin only)
